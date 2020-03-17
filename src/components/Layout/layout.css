@@ -4,17 +4,19 @@
 
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap");
+
 html {
-  font-family: sans-serif;
+  scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  background: rgba(33, 33, 33, 0.8) !important;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 main,
 footer {
   display: block;
