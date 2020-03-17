@@ -64,7 +64,7 @@ const IndexPage = () => (
               </h1>
               <p class="text-green-800 center text-l text-center">
                 Yes, official taxi service is operational, however alternative
-                taxi services (uber, taxify, liftago) are banned.
+                taxi services (uber, taxify) are banned. Note that Liftago is operational as they use licenced taxi drivers only.
               </p>
             </div>
           </div>
