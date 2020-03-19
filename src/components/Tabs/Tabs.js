@@ -20,7 +20,7 @@ const tabList = [
 ]
 
 const renderTabBar = (props, DefaultTabBar) => (
-  <Sticky bottomOffset={80}>
+  <Sticky>
     {({ style }) => (
       <DefaultTabBar {...props} style={{ ...style, zIndex: 999999 }} />
     )}

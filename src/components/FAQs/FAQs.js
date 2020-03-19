@@ -10,7 +10,14 @@ const faqList = [
     question: "Are we under quarantine?",
     answer: (
       <>
-        Yes, until <b>24.03.2020</b>
+        Yes, until{" "}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.lidovky.cz/domov/v-cesku-je-214-potvrzenych-pripadu-nakazy-novym-koronavirem.A200315_070607_ln_domov_vag"
+        >
+          24.03.2020
+        </a>
       </>
     ),
     icon: "🏠",
@@ -19,11 +26,30 @@ const faqList = [
     question: "What to do when I feel unwell?",
     answer: (
       <>
-        <h1>
-          <Emoji text="☎️" />
-          &nbsp; Call 1212
-        </h1>
-        <p>New infoline created to handle virus-related queries</p>
+        <p>
+          <Emoji text="☎️" />{" "}
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.novinky.cz/zahranicni/koronavirus/clanek/ke-koronaviru-bude-fungovat-nova-infolinka-1212-40316770"
+          >
+            Call 1212
+          </a>{" "}
+          - New infoline created to handle virus-related queries
+        </p>
+        <p>
+          <Emoji text="💬" />{" "}
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.itbiz.cz/tiskove-zpravy/studenti-cvut-vytvorili-chatbot-odpovidajici-na-otazky-ke-koronaviru"
+          >
+            {" "}
+            Chatbot at koronavirus24.cz
+          </a>
+          - When the phone line is overloaded you can try the chatbot created by
+          students of CTU for quick automated Q&A
+        </p>
       </>
     ),
     icon: "🤧",
@@ -45,12 +71,18 @@ const faqList = [
     answer: (
       <>
         <p>
-          Yes, official taxi service is operational, however alternative taxi
-          services (uber, taxify) are banned.
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.lidovky.cz/byznys/firmy-a-trhy/zakaz-neni-pro-vsechny-ridice-uberu-a-boltu-s-licenci-jezdit-smi.A200316_133007_firmy-trhy_ele"
+          >
+            There is no ban for any taxi service,
+          </a>{" "}
+          but there is for drivers without taxi licence
         </p>
         <p>
-          Note that Liftago is operational as they use licenced taxi drivers
-          only.
+          Note that Liftago is fully operational as they only use licenced taxi
+          drivers only.
         </p>
       </>
     ),
@@ -58,8 +90,23 @@ const faqList = [
   },
   {
     question: "Can I use a public transport?",
-    answer:
-      "Yes, but it's compulsory to cover your mouth and nose. Use face mask, scarf, etc.",
+    answer: (
+      <>
+        <p>
+          Yes,{" "}
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="    https://moravskoslezsky.denik.cz/zpravy_region/hejtman-rozhodl-o-povinnem-uzivani-rousek-v-hromadne-doprave-20200317.html
+            "
+          >
+            but it's compulsory to cover your mouth and nose.
+          </a>{" "}
+          Use face mask, scarf, etc.
+        </p>
+      </>
+    ),
+
     icon: "🚉",
   },
 ]
