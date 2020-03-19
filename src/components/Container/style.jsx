@@ -5,4 +5,7 @@ export const StyledContainer = styled.div`
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  // Temporary fix for jumpy scrolling
+  overflow-y: scroll;
+  height: 800px;
 `
